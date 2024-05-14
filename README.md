@@ -1,7 +1,8 @@
 
 To run the project, you'll need to follow these steps:
 
-1. Setting Up the Log Ingestion System:
+1. Setting Up the Log Ingestion System.
+   
 a. Create Log Files: First, create the log files where the logs will be stored. You can create these files manually or let the system create them as logs are ingested.1.
 For example:
 touch log1.log log2.log log3.log
@@ -13,7 +14,8 @@ python log_ingestion.py
 
 This script will start running and will be ready to receive log entries.
 
-2. Running the Query Interface:
+2. Running the Query Interface.
+   
 a. Modify and Extend the Query Interface Script: Take the provided Python script for the Query Interface (query_interface.py) and modify it according to your advanced feature requirements.
    You might need to add functionality for searching within date ranges, regex matching, combining filters, real-time updates, and role-based access control.
 
